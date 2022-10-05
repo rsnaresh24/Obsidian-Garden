@@ -1,25 +1,6 @@
 title:               Obsidian Digital Garden
 include:             ['_pages']
 exclude:             ['_includes/notes_graph.json']
-pagination:
-  enabled: true
-  debug: false
-  collection: 'notes'
-  per_page: 6
-  permalink: '/page/:num.html'
-  title: ':title - page :num of :max'
-  sort_field: 'date'
-  sort_reverse: true
-
-autopages:
-  enabled: true
-  categories:
-    title: 'Posts in category :cat'
-  tags:
-    title: 'Posts tagged with :tag'
-  collections:
-    title: 'Posts in collection :coll'
-
 # You may need to change the base URL depending on your deploy configuration.
 # Specifically, when using GitHub Pages, the baseurl should point to where GitHub
 # Pages deploys your repository (which is usually the repository name).
